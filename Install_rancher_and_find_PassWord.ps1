@@ -1,8 +1,8 @@
-# CrÃ©e par Kuroakashiro
+# Crée par Kuroakashiro
 chcp 65001
 clear
-Write-Host "entÃ©e [1] pour selement rÃ©cupÃ©rer le MDP"
-[string]$user = Read-Host ": " 
+Write-Host "entée [1] pour selement récupérer le MDP"
+[string]$user = Read-Host "â–º " 
 
 if ( $user -eq "1" )
 {
